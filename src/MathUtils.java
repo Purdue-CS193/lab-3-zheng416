@@ -5,7 +5,7 @@ public class MathUtils {
      */
     public static double divideNumbers(int dividend, int divisor) {
         /* Do some casual division ... Super easy ... Shouldn't be any problems here */
-        double res = dividend / divisor;
+        double res = (double)dividend / (double)divisor;
         /* Return the DEFINITELY CORRECT result */
         return res;
     }
