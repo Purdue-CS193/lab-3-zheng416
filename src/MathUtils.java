@@ -28,7 +28,7 @@ public class MathUtils {
         /* Multiply the result by the base exp times
             Ex: base = 2, exp = 2
                --> res = 2, then res = 4 */
-        for (int i = 0; i < exp; i++) {
+        for (int i = 1; i < exp; i++) {
            res *= base; 
         }
 

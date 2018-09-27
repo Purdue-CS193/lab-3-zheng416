@@ -12,7 +12,8 @@ public class StringUtils {
             Ex: firstName = "Sean", lastName = "Flannery"
                     --> res = "SFlannery"
          */
-        String res = firstName.substring(0,1) + lastName;
+
+        String res = firstName.substring(0,1) + lastName.substring(0 ,lastName.length()-9);
         /* Shorten the string to 8 characters
             Ex: res = "SFlannery"
                     --> res = "SFlanner"
@@ -36,6 +37,6 @@ public class StringUtils {
      */
     public static String replaceStudentUsername(String text, String username) {
         /* Replace every instance of the username with proper message */
-        return text.replaceAll(username, "[DATA EXPUNDGED]");
+        return text.replaceAll(username, "[DATA EXPUNGED]");
     }
 }
